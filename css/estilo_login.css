@@ -17,9 +17,9 @@
 /* configurações padrão web */
 body {
 
-	background: #adaca7 url("../imagens/inicial_tratada2.png") no-repeat;
+	background: #b2b1ac url("../imagens/inicial_tratada3.png") no-repeat;
 	opacity: 85%;
-	background-size: 100%;
+	background-size: 60%;
 	font: 100% Open Sans, sans-serif;
 	color: #012E40;
 
@@ -52,18 +52,71 @@ body {
 
 #login {
 	width: 25%;
-	height: 40vh;
 	position: relative;
-	left: 65%;
+	left: 60%;
 	top: 10vh;
 	background: #012E40;
 	opacity: 85%;
 	color: #fff;
 	border-radius: 10px;
 	padding: 20px;
+	min-height: 40vh;
+	min-width: 40vh;
+	font-size: 1rem;
+
+}
+
+#lembrar-email {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #999;
+	margin-top: 3%;
+	background-color: #012E40;
+  	border-color: blue;
+	
+}
+
+.stilo-login {
+	width: 95%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 3%;
+	padding-left: 5%;
 
 
 }
+
+.color-button {
+	background: #F1DC72;
+	color: #012E40;
+	font-weight: bold;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 5%;
+
+
+	/* Mudança de cor quando o mouse é passado sobre o botão */
+  transition: background-color 0.3s; /* Adiciona uma transição suave */
+}
+
+/* Nova cor de fundo quando o mouse é passado */
+.color-button:hover {
+  background-color: #89792A;
+  color: #fff;
+
+}
+
+/* Nova cor de fundo quando o mouse é passado */
+.stilo-login:hover {
+  background-color: #89792A;
+  color: #fff;
+
+}
+
+
+
+
 
 
 }
