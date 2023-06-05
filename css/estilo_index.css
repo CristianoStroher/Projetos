@@ -1,0 +1,141 @@
+/* limpar site */
+* {
+	margin: 0%;
+	padding: 0%;
+
+}
+
+/* cores padrão site */
+:root{
+
+	--cor-fundo : rgb(240, 240, 240);
+	--cor-hover : rgb(13, 29, 35);
+	--cor-azul : rgb(1, 46, 64);
+	--cor-azulescuro : rgb(13, 29, 35);
+	--cor-dourado : rgb(241, 220, 114);		
+}
+
+
+/* fontes adicional layout*/
+
+@font-face {
+
+	font-family: Oswald; 
+	src: url('fonts/Oswald-Bold.woff');
+
+}
+
+/* configurações padrão web */
+body {
+
+	background: #b2b1ac;
+	font: 100% Open Sans, sans-serif;
+	color: #012E40;
+
+}
+
+header {
+	height: 100px;
+	background: #012E40;
+	display: flex;
+	align-items: center;
+	
+
+
+}
+
+#logo-responsivo img {
+	width: 200px;
+	border-right: 1px solid #F1DC72;
+	padding: 10px;
+	margin: 20px;
+	
+}
+
+.drop-menu ul {
+	background: var(--cor-azul);
+	display: inline-block;
+	list-style-type: none;
+	
+
+}
+
+.drop-menu ul li {
+	display: inline;
+	position: relative;
+
+}
+
+.drop-menu ul li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	transition: backround 1s;
+
+}
+
+.drop-menu ul li a button:hover {
+	background-color: var(--cor-azulescuro);
+	color: var(--cor-dourado);
+	border: 1px solid #black;
+	padding: 5px;
+  	border-radius: 5px;
+
+}
+
+.drop-menu ul li a button:focus {
+	background-color: var(--cor-dourado);;
+	color: var(--cor-azulescuro);
+	border: 1px solid #black;
+	padding: 5px;
+  	border-radius: 5px;
+  	font-weight: bold;
+
+
+}
+
+.drop-menu ul li:hover ul{
+	display: block;
+}
+
+
+/*sub-menus*/
+
+.drop-menu ul ul{
+	display: none;
+	position: absolute;
+	left: 0;
+
+
+}
+
+.drop-menu ul ul{
+	width: 250px;
+
+}
+
+.drop-menu ul ul li a {
+	display: block;
+
+}
+
+.drop-menu ul ul li a button {
+	width: 210px;
+	height: 50px;
+	border: none;
+  	background-color: transparent;
+   	margin-left: 10px;
+  	color: #fff;
+  	text-align: left;
+
+}
+
+.drop-menu ul ul li a button svg {
+	position: relative;
+	left: 115px;
+	
+
+}
+
+
+
