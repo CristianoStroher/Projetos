@@ -74,20 +74,20 @@ header {
 
 }
 
-.drop-menu ul li a button:hover {
+.button-menu:hover {
 	background-color: var(--cor-azulescuro);
 	color: var(--cor-dourado);
 	border: 1px solid #black;
-	padding: 5px;
+	padding: 10px;
   	border-radius: 5px;
 
 }
 
-.drop-menu ul li a button:focus {
-	background-color: var(--cor-dourado);;
+.button-menu:focus {
+	background-color: var(--cor-dourado);
 	color: var(--cor-azulescuro);
 	border: 1px solid #black;
-	padding: 5px;
+	padding: 10px;
   	border-radius: 5px;
   	font-weight: bold;
 
@@ -110,7 +110,7 @@ header {
 }
 
 .drop-menu ul ul{
-	width: 250px;
+	width: 220px;
 
 }
 
@@ -119,23 +119,24 @@ header {
 
 }
 
-.drop-menu ul ul li a button {
-	width: 210px;
-	height: 50px;
+.drop-menu ul ul li a div {
+	width: 80%;
+	height: 30px;
 	border: none;
   	background-color: transparent;
-   	margin-left: 10px;
+   	margin: 10px;
   	color: #fff;
   	text-align: left;
+  	padding: 5px;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
 
 }
 
-.drop-menu ul ul li a button svg {
-	position: relative;
-	left: 115px;
-	
 
-}
+
+
 
 
 
