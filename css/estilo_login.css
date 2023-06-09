@@ -2,6 +2,7 @@
 * {
 	margin: 0%;
 	padding: 0%;
+ 
 
 }
 
@@ -21,8 +22,7 @@ body {
 	opacity: 85%;
 	background-size: 60%;
 	font: 100% Open Sans, sans-serif;
-	color: #012E40;
-
+	
 }
 
 #logo {
@@ -57,17 +57,19 @@ body {
 #login {
 	width: 25%;
 	position: relative;
-	left: 60%;
-	top: 10vh;
+	left: 25%;
+	top: 15vh;
 	background: #012E40;
 	opacity: 85%;
 	color: #fff;
 	border-radius: 10px;
 	padding: 20px;
-	min-height: 30vh;
-	min-width: 30vh;
+	max-width: 400px;
+	min-width: 320px;
 	font-size: 1rem;
-
+	max-height: 300px;
+	min-height: 100px;
+	margin: 0 auto;
 }
 
 #lembrar-email {
@@ -75,10 +77,16 @@ body {
 	height: 18px;
 	margin-top: 3%;
 	background-color: #012E40;
-  	border-color: blue;
-  	outline: none;
-	
+  border-color: blue;
+  outline: none;
+
 }
+
+#lembrar-senha {
+	font-size: 14px;
+	font-family: Osvald, sans-serif;
+}
+
 
 .stilo-login {
 	width: 95%;
@@ -87,8 +95,6 @@ body {
 	margin-top: 3%;
 	padding-left: 5%;
 	outline: none;
-
-
 }
 
 .color-button {
@@ -120,4 +126,4 @@ body {
 
 }
 
-}
+

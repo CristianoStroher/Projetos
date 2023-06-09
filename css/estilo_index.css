@@ -2,6 +2,7 @@
 * {
 	margin: 0%;
 	padding: 0%;
+	border: 0%;
 
 }
 
@@ -31,6 +32,7 @@ body {
 	background: #b2b1ac;
 	font: 100% Open Sans, sans-serif;
 	color: #012E40;
+	flex-wrap: wrap;
 
 }
 
@@ -56,13 +58,14 @@ header {
 	background: var(--cor-azul);
 	display: inline-block;
 	list-style-type: none;
-	
+
 
 }
 
 .drop-menu ul li {
 	display: inline;
 	position: relative;
+
 
 }
 
@@ -90,12 +93,12 @@ header {
 	padding: 10px;
   	border-radius: 5px;
   	font-weight: bold;
-
-
 }
+
 
 .drop-menu ul li:hover ul{
 	display: block;
+
 }
 
 
@@ -105,6 +108,8 @@ header {
 	display: none;
 	position: absolute;
 	left: 0;
+
+
 
 
 }
@@ -117,22 +122,47 @@ header {
 .drop-menu ul ul li a {
 	display: block;
 
+
 }
 
 .drop-menu ul ul li a div {
-	width: 80%;
+	position: relative;
+	width: 85%;
 	height: 30px;
 	border: none;
   	background-color: transparent;
-   	margin: 10px;
-  	color: #fff;
+   	color: #fff;
   	text-align: left;
-  	padding: 5px;
+  	padding: 10px;
   	display: flex;
   	justify-content: space-between;
   	align-items: center;
+  	margin: 5px;
+
 
 }
+
+.drop-menu ul li {
+  position: relative;
+}
+
+.drop-menu ul li .submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  opacity: 0%;
+}
+
+.drop-menu ul li:hover .submenu {
+  display: block;
+
+}
+
+
+
+
 
 
 

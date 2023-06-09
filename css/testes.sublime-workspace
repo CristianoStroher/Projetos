@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"con",
+				"justify-content"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"st",
+				"strong"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"alt",
+				"align-items"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"background-position-",
+				"background-position-y"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"BOR",
+				"border"
+			],
+			[
+				"MA",
+				"margin"
+			],
+			[
+				"WHI",
+				"width"
+			],
+			[
+				"HE",
+				"line-height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"fel",
+				"flex"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font-l",
+				"font-style"
+			],
+			[
+				"trs",
+				"transform"
+			],
+			[
+				"he",
+				"line-height"
+			],
+			[
+				"l",
+				"block"
+			],
+			[
+				"auto",
+				"autofocus"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"s",
+				"absolute"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"r",
+				"reverse"
+			],
+			[
+				"anim",
+				"animation-direction"
+			],
+			[
+				"animation-d",
+				"animation-direction"
+			],
+			[
+				"an",
+				"animation-iteration-count"
+			],
+			[
+				"ani",
+				"animation-delay"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"margin-t",
+				"margin-bottom"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"pa",
+				"padding-inline"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"pad",
+				"padding-inline"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"text-id",
+				"text-indent"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"a",
+				"area"
+			],
+			[
+				"h",
+				"header"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "estilo_index.css",
+			"settings":
+			{
+				"buffer_size": 1787,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mc2_c/OneDrive/Documentos/GitHub/Projetos",
+		"/C/Users/mc2_c/OneDrive/Documentos/GitHub/Projetos/css"
+	],
+	"file_history":
+	[
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/css/estilohistorico.css",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/historico.html",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/agendamento.html",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/css/estiloprincipal.css",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/css/estilocadastro.css",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/principal.html",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/cadastro.html",
+		"/C/Users/mc2_c/Downloads/sair_svg.svg",
+		"/C/Users/mc2_c/Downloads/cliente_svg.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/acesso.html",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/css/estiloacesso.css",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/css/estilo.css",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/digital.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/pessoa.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/index.html",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/icon _cadastro.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/fotohome2.png",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/icon _user male circle_administrador.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/movendo-se-para-tras-ute-garota-de-cabelo-preto-experimentando-seu-novo-carro-caro-no-salao-automovel.jpg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/logo 1logo.svg",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/logo.png",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/🦆 icon_home.png",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/imagens/fundo.png",
+		"/C/Users/mc2_c/OneDrive/Documentos/Particular/TrabalhoAulaPhp/index"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "estilo_index.css",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1440,
+								1440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2145.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 54.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "testes.sublime-project",
+	"replace":
+	{
+		"height": 60.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
