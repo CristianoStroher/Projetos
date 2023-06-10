@@ -1,39 +1,31 @@
 /* limpar site */
 * {
-	margin: 0%;
-	padding: 0%;
-	border: 0%;
-
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 /* cores padrão site */
-:root{
-
-	--cor-fundo : rgb(240, 240, 240);
-	--cor-hover : rgb(13, 29, 35);
-	--cor-azul : rgb(1, 46, 64);
-	--cor-azulescuro : rgb(13, 29, 35);
-	--cor-dourado : rgb(241, 220, 114);		
+:root {
+	--cor-fundo: rgb(240, 240, 240);
+	--cor-hover: rgb(13, 29, 35);
+	--cor-azul: rgb(1, 46, 64);
+	--cor-azulescuro: rgb(13, 29, 35);
+	--cor-dourado: rgb(241, 220, 114);
 }
 
-
 /* fontes adicional layout*/
-
 @font-face {
-
-	font-family: Oswald; 
+	font-family: Oswald;
 	src: url('fonts/Oswald-Bold.woff');
-
 }
 
 /* configurações padrão web */
 body {
-
 	background: #b2b1ac;
-	font: 100% Open Sans, sans-serif;
+	font: 1rem Open Sans, sans-serif;
 	color: #012E40;
 	flex-wrap: wrap;
-
 }
 
 header {
@@ -41,132 +33,135 @@ header {
 	background: #012E40;
 	display: flex;
 	align-items: center;
-	
-
-
-}
+	}
 
 #logo-responsivo img {
 	width: 200px;
 	border-right: 1px solid #F1DC72;
 	padding: 10px;
 	margin: 20px;
-	
 }
 
 .drop-menu ul {
 	background: var(--cor-azul);
 	display: inline-block;
 	list-style-type: none;
-
-
+	border-radius: 5px;
+	
 }
 
 .drop-menu ul li {
 	display: inline;
 	position: relative;
-
-
 }
 
 .drop-menu ul li a {
 	display: inline-block;
 	color: #fff;
 	text-decoration: none;
-	transition: backround 1s;
+	transition: background 1s;
+}
+
+.button-menu {
+	display: flex;
+	width: 85%;
+	padding: 10px;
+	text-decoration: none;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+	height: 25px;
+	transition: background-color 1s, color 1s;
 
 }
 
 .button-menu:hover {
 	background-color: var(--cor-azulescuro);
 	color: var(--cor-dourado);
-	border: 1px solid #black;
 	padding: 10px;
-  	border-radius: 5px;
-
+	border-radius: 5px;
+	transition: background-color 1s, color 1s;
 }
 
 .button-menu:focus {
 	background-color: var(--cor-dourado);
 	color: var(--cor-azulescuro);
-	border: 1px solid #black;
 	padding: 10px;
-  	border-radius: 5px;
-  	font-weight: bold;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 1s, color 1s;
 }
 
-
-.drop-menu ul li:hover ul{
+.drop-menu ul li:hover ul {
 	display: block;
-
 }
 
-
-/*sub-menus*/
-
-.drop-menu ul ul{
+/* sub-menus */
+.drop-menu ul ul {
 	display: none;
 	position: absolute;
 	left: 0;
-
-
-
-
-}
-
-.drop-menu ul ul{
 	width: 220px;
-
 }
 
 .drop-menu ul ul li a {
 	display: block;
-
-
 }
 
 .drop-menu ul ul li a div {
 	position: relative;
 	width: 85%;
-	height: 30px;
+	height: 25px;
 	border: none;
-  	background-color: transparent;
-   	color: #fff;
-  	text-align: left;
-  	padding: 10px;
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
-  	margin: 5px;
-
-
+	background-color: transparent;
+	color: #fff;
+	text-align: left;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
 }
 
 .drop-menu ul li {
-  position: relative;
+	position: relative;
 }
 
 .drop-menu ul li .submenu {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  opacity: 0%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	opacity: 0;
 }
 
 .drop-menu ul li:hover .submenu {
-  display: block;
-
+	display: block;
 }
 
+.button-submenu:focus + .submenu {
+	display: block;
+	opacity: 1;
+}
 
+.button-menu.button-submenu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 
-
-
-
-
-
+#produto-fixo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px;
+	border-bottom: 1px solid #F1DC72;
+	width: 85%;
+	height: 25px;
+	padding: 10px;
+	color: #fff;
+}
 
 
 
