@@ -236,12 +236,12 @@ nav {
 
 /*Menu Usuario*/
 #usuario-menu {
+	position: relative;
 	right: 0;
-	width: 20%;
+	width: 100px;
 	height: 100%;
 	background: var(--cor-azul);
-	justify-content: center;
-  	align-items: center;
+	
 }
 
 #usuario-menu img{
@@ -250,7 +250,8 @@ nav {
 	border-radius: 50px;
 	background: var(--cor-azul);
 	margin: 0 auto;
-	}
+}
+
 
 .seta-rotacionada {
   transform: rotate(-270deg);
@@ -261,31 +262,39 @@ nav {
 /*dropdown-menu*/
 
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  right: 50px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  top: 80px;
-  background: var(--cor-azul);
-  list-style: none;
-  width: 150px;
-  margin-top: 10px;
- }
-
-.dropdown-menu li a {
-  text-decoration: none;
-  color: #fff;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
-  margin: 10px;
+	display: none;
+	position: absolute;
+	right: 0;
+	border-radius: 5px;
+	top: 100%;
+	background: var(--cor-azul);
+	list-style: none;
+	width: 200px;
+	margin-top: 5px;
+	padding: 0;
   }
 
+.container {
+	display: flex;
+	width: 85%;
+ 	padding: 10px;
+ 	text-decoration: none;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+	height: 25px;
+	transition: background-color 1s, color 1s;
+	list-style: none;
+	color: #fff;
+
+  }
+
+.dropdown-menu li a img {
+	margin-left: 10px; /* Ajuste a margem conforme necessário */
+}
+
 #usuario-menu:hover .dropdown-menu {
-  display: block;
+  	display: block;
 }
 
 
