@@ -4,6 +4,8 @@
 	padding: 0;
 	border: 0;
 	list-style: none;
+	text-decoration: none;
+	z-index: 2;
 }
 
 /* Cores padrão do site */
@@ -49,6 +51,7 @@ header {
 nav {
 	flex-grow: 1; /* Ocupar todo o espaço restante na linha */
 	margin-left: auto;
+
 }
 
 /* Logo responsivo */
@@ -60,44 +63,17 @@ nav {
 	margin-right: 20px;
 }
 
-/* Menu Dropdown */
-.drop-menu ul {
-	background: var(--cor-azul);
-	display: inline-block;
-	list-style-type: none;
-	border-radius: 5px;
-}
-
-.drop-menu ul li {
-	display: inline;
-	position: relative;
-}
-
-.drop-menu ul li a {
-	display: inline-block;
-	color: #fff;
-	text-decoration: none;
-	transition: background 1s;
-	margin-left: 5px;
-}
-
-.drop-menu ul li div {
-	display: flex;
-
-}
-
 
 /* Botões do Menu */
 .button-menu {
 	width: 85%;
 	padding: 10px;
-	text-decoration: none;
 	justify-content: space-between;
 	align-items: center;
 	margin: 5px;
 	height: 25px;
 	transition: background-color 1s, color 1s;
-	border: 1px solid center;
+	color: #cdcdcd;
 
 }
 
@@ -116,54 +92,6 @@ nav {
 	transition: background-color 1s, color 1s;
 }
 
-.drop-menu ul li:hover ul {
-	display: block;
-}
-
-/* Sub-menus */
-.drop-menu ul ul {
-	display: none;
-	position: absolute;
-	left: 0;
-	width: 220px;
-}
-
-.drop-menu ul ul li a {
-	display: block;
-}
-
-.drop-menu ul ul li a div {
-	position: relative;
-	width: 85%;
-	height: 25px;
-	border: none;
-	background-color: transparent;
-	color: #fff;
-	text-align: left;
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 5px;
-}
-
-.drop-menu ul li {
-	position: relative;
-}
-
-.drop-menu ul li .submenu {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 100%;
-	width: 100%;
-	opacity: 0;
-	justify-content: space-between;
-}
-
-.drop-menu ul li:hover .submenu {
-	display: block;
-}
 
 .button-submenu:focus + .submenu {
 	display: block;
@@ -239,10 +167,7 @@ nav {
 #usuario-menu {
 	position: relative;
 	right: 0;
-	width: 100px;
-	height: 100%;
-	background: var(--cor-azul);
-}
+	}
 
 #usuario-menu img {
 	display: block;
@@ -257,55 +182,19 @@ nav {
 	padding: 5px;
 }
 
-/* Dropdown-menu */
+
+
 .dropdown-menu {
-	display: none;
 	position: absolute;
-	right: 0;
-	border-radius: 5px;
-	top: 100%;
+	width: 170px;
+	height: 15vh;
+	padding: 5px;
 	background: var(--cor-azul);
-	list-style: none;
-	width: 200px;
-	margin-top: 5px;
-	padding: 0;
+	right: 0;
+	top: 80px;
+	border-radius: 0 0 5px 5px;
 }
 
-.container {
-	display: flex;
-	width: 85%;
-	padding: 10px;
-	text-decoration: none;
-	justify-content: space-between;
-	align-items: center;
-	margin: 5px;
-	height: 25px;
-	transition: background-color 1s, color 1s;
-	list-style: none;
-	color: #fff;
-}
-
-.drop-menu ul li a {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.dropdown-menu li a img {
-	margin-left: 10px; /* Ajuste a margem conforme necessário */
-}
-
-#usuario-menu:hover .dropdown-menu {
-	display: block;
-}
-
-.dropdown-menu li a:hover {
-	background-color: var(--cor-azulescuro);
-	color: var(--cor-dourado);
-	padding: 10px;
-	border-radius: 5px;
-	transition: background-color 1s, color 1s;
-}
 
 /* DROP-DAW BOTAO */
 .menu {
@@ -339,6 +228,7 @@ nav {
   height: 30px;
   opacity: 0;
   cursor: pointer;
+  background-color: var(--cor-fundo);
 
 }
 
@@ -370,39 +260,40 @@ nav {
   top: 100px;
   width: 200px;
   background-color: var(--cor-azul);
-  height: 30vh;
+  height: 39vh;
   margin-top: -50vh;
-  transition: all ease .5s;
+  transition: all ease .2s;
   border-radius: 0 0 5px 5px;
+  display: block;
+  margin-right: 10px;
 
-}
-
-.menu .menu-faketrigger:checked ~ ul {
-  margin-top: 0;
 }
 
 .texto {
   margin-left: 40px;
   color: #cdcdcd;
   font-size: 1.2em;
+ 
+}
+
+.menu .menu-faketrigger:checked ~ ul {
+  margin-top: 0;
 }
 
 .menu .menu-faketrigger:checked ~ h1 {
    opacity: 0;
-  
-
-}
+ }
 
 .menu .menu-faketrigger:checked ~ .texto-fechar {
    opacity: 100%;
    position: absolute;
    top: 34px;
-   transition: all ease .5s;
+   transition: all ease .7s;
    
 }
 
 .texto-fechar {
   position: absolute;
   opacity: 0;
-  top: 5px;
+  top: 34px;
 }

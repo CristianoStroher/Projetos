@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+background-color: #232323;
+color: #cdcdcd;
+}
+
+.menu {
+  position: absoute;
+  z-index: 999;
+
+}
+
+.menu .menu-lines {
+ position: absolute;
+ z-index: 999;
+ width: 35px;
+ height: 35px;
+}
+
+.menu .menu-lines span {
+  display: block;
+  width: 35px;
+  height: 6px;
+  margin-bottom: 8px;
+  background-color: #cdcdcd;
+  border-radius: 9999px;
+  transition: all ease .5s;
+
+}
+
+.menu .menu-faketrigger {
+  position: absolute;
+  z-index: 1000;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span {
+/*  background-color: #333;*/
+  
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(1) {
+  transform-origin: 0% 0%;
+  transform: rotate(45deg) scaleX(1.25);
+ 
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(2) {
+  opacity: 0;
+  
+}
+
+.menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(3) {
+   transform-origin: 0% 100%;
+  transform: rotate(-45deg) scaleX(1.25);
+  
+}
+
+.menu ul {
+  position: absolute;
+  z-index: 998;
+  top: 50px;
+  width: 300px;
+  background-color: #ededed;
+  height: 30vh;
+  margin-top: -50vh;
+  transition: all ease .5s;
+
+}
+
+.menu .menu-faketrigger:checked ~ ul {
+  margin-top: 0;
+}
+
+.texto {
+  margin-left: 45px;
+}
+
+.menu .menu-faketrigger:checked ~ h1 {
+   opacity: 0;
+  
+
+}
+
+.menu .menu-faketrigger:checked ~ .texto-fechar {
+   opacity: 100%;
+   position: absolute;
+   top: 5px;
+   transition: all ease .5s;
+
+}
+
+.texto-fechar {
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+}
+
+
+
+
