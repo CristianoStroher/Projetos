@@ -70,6 +70,10 @@ nav {
 	margin-right: 20px;
 }
 
+#logo-responsivo:hover img {
+	scale: 107%;
+}
+
 
 /* MENU PRINCIPAL */
 .button-menu {
@@ -209,6 +213,13 @@ nav {
   display: block;
   transition: all ease .5s;
 }
+
+/*#usuario-menu:focus a img {
+  display: block;
+  transition: all ease .5s;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+*/
 
 
 /* DROP-DAW BOTAO */
